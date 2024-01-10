@@ -6,7 +6,7 @@
 
 ### Glad to see you here! &nbsp; ![](https://visitor-badge.glitch.me/badge?page_id=vunguyenkhanh.vunguyenkhanh&style=flat-square&color=0088cc)
 
-I graduated with an engineering degree majoring in Information Technology Specialist 🎓 at Hanoi University of Science and Technology - Vietnam 🏛. I'm a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. I'm currently into Web Development 🕸️.
+I graduated with an engineering degree majoring in Information Technology 🎓 at Hanoi University of Science and Technology - Vietnam 🏛. I'm a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. I'm currently into Web Development 🕸️.
 
 Like My Work?
 
