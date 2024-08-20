@@ -30,7 +30,7 @@ Like My Work?
 - 🍕 &nbsp; Hackathons, meetups & tech events.
 
 ### Languages and Tools:
-<p align="center">
+<p align="left">
   <a href="#">
     <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,git,github,sass,react,ts" />
     <img src="https://skillicons.dev/icons?i=nextjs,c,java,php,laravel,mysql,postgres,mongodb,notion,figma" />
