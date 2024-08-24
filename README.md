@@ -6,7 +6,7 @@
 
 ### Glad to see you here! &nbsp; ![](https://visitor-badge.glitch.me/badge?page_id=vunguyenkhanh.vunguyenkhanh&style=flat-square&color=0088cc)
 
-I graduated with an engineering degree majoring in Information Technology 🎓 at Hanoi University of Science and Technology - Vietnam 🏛. I'm a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. I'm currently into Web Development 🕸️.
+I graduated with an Engineering degree majoring in Information Technology 🎓 at Hanoi University of Science and Technology - Vietnam 🏛. I'm a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. I'm currently into Web Development 🕸️.
 
 Like My Work?
 
@@ -16,7 +16,7 @@ Like My Work?
 
 ### Talking about Personal Stuffs:
 
-- 🛠 &nbsp; I’m currently working with PHP, Java, HTML, <br /> Javascript, CSS, Laravel, etc.
+- 🛠 &nbsp; I’m currently working with HTML, CSS, Javascript, Tailwind CSS, ReactJS, etc.
 - 🚀 &nbsp; I’m currently learning Full Stack Development.
 - 👨🏻‍💻 &nbsp; Most of my projects are available on [Github](https://github.com/vunguyenkhanh).
 - 💬 &nbsp; Ask me about anything [here](https://github.com/vunguyenkhanh/vunguyenkhanh/issues/1)! I am happy to help.
@@ -32,8 +32,8 @@ Like My Work?
 ### Languages and Tools:
 <p align="left">
   <a href="#">
-    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,git,github,sass,react,ts" />
-    <img src="https://skillicons.dev/icons?i=nextjs,c,java,php,laravel,mysql,postgres,mongodb,notion,figma" />
+    <img width="100%" src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,git,github,sass,react,ts" />
+    <img width="100%" src="https://skillicons.dev/icons?i=nextjs,c,java,php,laravel,mysql,postgres,mongodb,notion,figma" />
   </a>
 </p>
 
