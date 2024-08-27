@@ -1,12 +1,10 @@
-name: Autobuild README
+name: README build
 
 on:
   push:
     branches:
       - main
   schedule:
-    # README updates every new hour
-    # Use '0 */1 * * *' or '@hourly'
     - cron: '0 */3 * * *'
 
 jobs:
@@ -14,14 +12,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout current repository to main branch
-        uses: actions/checkout@v2.3.4
-      - name: Setup Node.js 13.x
-        uses: actions/setup-node@v2.3.0
+      - name: checkout
+        uses: actions/checkout@v1
+      - name: setup node
+        uses: actions/setup-node@v1
         with:
           node-version: '13.x'
-      - name: Cache dependencies and build outputs
-        uses: actions/cache@v2.1.6
+      - name: cache
+        uses: actions/cache@v1
         with:
           path: node_modules
           key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
@@ -31,10 +29,7 @@ jobs:
         run: node index.js
         env:
           OPEN_WEATHER_MAP_KEY: ${{secrets.OPEN_WEATHER_MAP_KEY}}
-      - name: Commit and push new README.md
-        run: |-
-          git diff
-          git config --global user.email "${{secrets.GLOBAL_USER_EMAIL}}"
-          git config --global user.name "${{secrets.GLOBAL_USER_NAME}}"
-          git commit -a -m "Hourly content update" || exit 0
-          git push
+      - name: Push new README.md
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
