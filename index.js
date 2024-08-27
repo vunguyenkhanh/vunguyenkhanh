@@ -19,11 +19,16 @@ let DATA = {
 };
 
 async function setWeatherInformation() {
-  await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=Ho%20Chi%20Minh%20City,VN&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`,
-  )
-    .then((r) => r.json())
-    .then((r) => {
+  try {
+    const response = await fetch(
+      `https://api.openweathermap.org/data/2.5/weather?q=Ho%20Chi%20Minh%20City,VN&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`,
+    );
+    const r = await response.json();
+
+    // Log the response to debug
+    console.log(r);
+
+    if (r.main && r.main.temp && r.weather && r.weather[0] && r.sys) {
       DATA.city_temperature = Math.round(r.main.temp);
       DATA.city_weather = r.weather[0].description;
       DATA.city_weather_icon = r.weather[0].icon;
@@ -37,15 +42,32 @@ async function setWeatherInformation() {
         minute: '2-digit',
         timeZone: 'Asia/Ho_Chi_Minh',
       });
-    });
+    } else {
+      console.error('Error: Incomplete weather data received');
+      DATA.city_temperature = 'N/A';
+      DATA.city_weather = 'N/A';
+      DATA.city_weather_icon = 'N/A';
+      DATA.sun_rise = 'N/A';
+      DATA.sun_set = 'N/A';
+    }
+  } catch (error) {
+    console.error('Error fetching weather data:', error);
+    DATA.city_temperature = 'N/A';
+    DATA.city_weather = 'N/A';
+    DATA.city_weather_icon = 'N/A';
+    DATA.sun_rise = 'N/A';
+    DATA.sun_set = 'N/A';
+  }
 }
 
 async function generateReadMe() {
-  await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
-    if (err) throw err;
+  try {
+    const data = await fs.promises.readFile(MUSTACHE_MAIN_DIR);
     const output = Mustache.render(data.toString(), DATA);
-    fs.writeFileSync('README.md', output);
-  });
+    await fs.promises.writeFile('README.md', output);
+  } catch (err) {
+    console.error('Error generating README:', err);
+  }
 }
 
 async function action() {
