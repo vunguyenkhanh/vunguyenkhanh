@@ -17,7 +17,7 @@ Like My Work?
 
 ### Talking about Personal Stuffs:
 
-- 🛠 &nbsp; I’m currently working with HTML, CSS, Javascript, Tailwind CSS, ReactJS, etc.
+- 🛠 &nbsp; I’m currently working with HTML, CSS, Javascript, <br/> Tailwind CSS, ReactJS, etc.
 - 🚀 &nbsp; I’m currently learning Full Stack Development.
 - 👨🏻‍💻 &nbsp; Most of my projects are available on [Github](https://github.com/vunguyenkhanh).
 - 💬 &nbsp; Ask me about anything [here](https://github.com/vunguyenkhanh/vunguyenkhanh/issues/1)! I am happy to help.
