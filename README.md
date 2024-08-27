@@ -1,11 +1,11 @@
-## Hey 👋, I'm [Vu Nguyen Khanh!](https://github.com/vunguyenkhanh/vunguyenkhanh/)
+## Hey <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/>, I'm [Vu Nguyen Khanh](https://github.com/vunguyenkhanh/vunguyenkhanh/)!
 
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kain6599/)
 [![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/VuNguyenKhanh.Profile)
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-00acee?style=flat-square&logo=Twitter&logoColor=white)](https://twitter.com/nguyenkhanh6599)
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=Instagram&logoColor=white)](https://www.instagram.com/kain.6599/)
 
-### Glad to see you here! &nbsp; ![](https://visitor-badge.glitch.me/badge?page_id=vunguyenkhanh.vunguyenkhanh&style=flat-square&color=0088cc)
+### Glad to see you here! &nbsp; ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=vunguyenkhanh.vunguyenkhanh)
 
 I graduated with an Engineering degree majoring in Information Technology 🎓 at Hanoi University of Science and Technology - Vietnam 🏛. I'm a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. I'm currently into Web Development 🕸️.
 
