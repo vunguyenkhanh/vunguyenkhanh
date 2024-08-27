@@ -1,0 +1,29 @@
+{
+  "name": "vunguyenkhanh",
+  "version": "1.0.0",
+  "description": "A dynamic README.md for your GitHub Profile, using Actions, Javascript and Mustache.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vunguyenkhanh/vunguyenkhanh.git"
+  },
+  "keywords": [
+    "readme.md",
+    "github",
+    "actions",
+    "dynamic",
+    "javascript"
+  ],
+  "author": "Vu Nguyen Khanh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mustache": "^4.2.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^23.2.0"
+  }
+}
