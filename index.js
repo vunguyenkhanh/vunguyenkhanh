@@ -6,7 +6,7 @@ import fs from 'fs';
 const MUSTACHE_MAIN_DIR = './main.mustache';
 
 let DATA = {
-  cityName: 'Ho Chi Minh City,VN',
+  cityName: 'Ho Chi Minh City, Vietnam',
   refresh_date: new Date().toLocaleDateString('en-US', {
     weekday: 'long',
     month: 'long',
