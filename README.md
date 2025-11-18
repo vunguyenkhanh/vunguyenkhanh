@@ -63,5 +63,5 @@ Like My Work?
 
 #
 
-<p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: <b> Tuesday, November 18 at 1:35 PM GMT+7 </b><br />Currently, the weather in <b> Ho Chi Minh City, Vietnam </b> is: <b> 31°C, <i>broken clouds</i></b></br>Today, the sun rises at <b>05:50 AM</b> and sets at <b>05:27 PM</b>.</p>
+<p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: <b> Tuesday, November 18 at 4:26 PM GMT+7 </b><br />Currently, the weather in <b> Ho Chi Minh City, Vietnam </b> is: <b> 25°C, <i>thunderstorm with heavy rain</i></b></br>Today, the sun rises at <b>05:50 AM</b> and sets at <b>05:27 PM</b>.</p>
 </div>
